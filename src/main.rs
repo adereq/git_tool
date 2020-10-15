@@ -1,3 +1,7 @@
+mod error;
+mod init;
+mod types;
+
 fn main() {
-    println!("Hello, world!");
+    init::init();
 }
